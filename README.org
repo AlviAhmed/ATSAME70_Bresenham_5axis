@@ -4,7 +4,7 @@
 #+AUTHOR: Alvi Ahmed
 
 *Status:* Completed 
-*Type:* Electrical Engineering Capston
+*Type:* Electrical Engineering Capstone
 
 * Objective 
 
