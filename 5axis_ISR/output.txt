@@ -1,0 +1,57 @@
+st.exec_segment is == NULL
+Creating new segment struct 
+prep_segment buffer output 
+ 
+ Starting New Block 
+
+ C 
+ X  Y  Z 
+ A  C 
+ 
+ Starting New Block 
+
+ C 
+
+ A  C 
+ X  Y  Z 
+ A  C 
+ 
+ Starting New Block 
+
+ A 
+
+ A 
+ X  Y  Z 
+ A  C 
+ 
+ Starting New Block 
+ Y  Z 
+ C 
+ X  Z 
+ A 
+ Y  Z 
+ A  C 
+ X  Y  Z 
+ C 
+ Z 
+ A 
+ Y  Z 
+ C 
+ X  Y  Z 
+ A  C 
+ 
+ Starting New Block 
+ Y 
+
+ X  Y 
+
+ X  Y 
+
+ Y 
+
+ X  Y  Z 
+
+ Y 
+
+ X  Y 
+

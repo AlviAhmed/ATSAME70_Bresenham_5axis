@@ -53,7 +53,8 @@ within the ISR.
 ** Results 
 
 As can be seen below the 5axis bresenham works as intended and
-generates the step sequence needed. 
+generates the step sequence needed. The rest of the output can be seen
+in [[file:5axis_ISR/output.txt][output.txt file]]
 
 [[file:5axis_ISR/5axis_result.png]]
 
