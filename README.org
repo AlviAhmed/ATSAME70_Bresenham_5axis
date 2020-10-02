@@ -1,0 +1,10 @@
+#+LaTeX_CLASS: mycustom 
+
+#+TITLE: Bresenham Simulation for 5 Axis CNC Controller
+#+AUTHOR: Alvi Ahmed
+
+*Status:* Completed 
+*Type:* Electrical Engineering Capston
+
+* Objective 
+

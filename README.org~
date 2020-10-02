@@ -1,0 +1,79 @@
+#+LaTeX_CLASS: mycustom 
+
+#+TITLE: Bresenham Simulation for 5 Axis CNC Controller
+#+AUTHOR: Alvi Ahmed
+
+*Status:* Completed 
+*Type:* Electrical Engineering Capston
+
+
+* Objective
+
+  The purpose of this lab is to develop a hardware prototype in VHDL for the Cyclone V using Quartus II and QSys.
+
+  This is done to learn more about the HPS/FPGA design flow in SoC design by using the provided DE1-SoC development board.
+
+  Also by using ARM DS-5 and a serial terminal, FPGA hardware will be controlled through embedded C programs running on a Yocto Linux
+
+  operating system. 
+
+  To test the success of this lab, a custom word will be displayed on
+  both the development board's seven segment display as well as print
+  statements in the terminal.
+
+* HPS/FPGA communication
+  The DE1-SoC has 2 components that will be the focus of this lab, the FPGA and the Hard Processor System (HPS).
+
+  For the communication between the 2 components there are different types, FPGA-to-HPS bridge (f2h), HPS-to-FPGA
+  bridge (h2f) and the light weight HPS-to-FPGA bridge (lwh2f). The
+  lwh2f will be focused on in this lab.   
+
+  The various FPGA and HPS communication types can be seen in the top
+  portion of this bus and bridge block diagram of the development
+  board. 
+
+	[[file:./images/comm_block.png]]
+
+	Image of block diagram of bus and bridge connections in
+	development board
+
+* Qsys 
+  In general the design flow of this lab is portayed in the image
+  below  
+
+  [[file:images/overall_design_flow.png]]
+
+  Image of the general design flow of project
+
+  As can be seen Qsys plays a big part in this lab, it used generate the
+  necessary HPS headers, a .tcl script for the HPS pin assignments and
+  the necessary VHDL code for the SoC design.  
+
+  It does this by using the
+  inputted IP cores (i.e. various peripherals like a 7 segment display)
+  as well allowing the user to set the connections between the HPS and
+  IP blocks as seen in the image below. 
+
+  [[file:./images/qsys_screenshot.png]]
+
+  Screenshot of QSys system and connections to HPS
+
+
+* Results 
+
+  The lab was a success, the system was able
+  to produce the results and the leds lit up in the correct sequence as
+  seen in the image below.
+
+  [[file:./images/terminal_output.png]]
+
+  Execution of the SoC System
+
+
+
+	
+
+
+
+
+
