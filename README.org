@@ -8,3 +8,102 @@
 
 * Objective 
 
+The objective of this capstone was to develop a  5 Axis CNC Controller
+on a Cortex-M7 platform, which was the ATSAME70 developer board. 
+
+My responsibility was to develop the Bresenham Algorithm for 5 axes on
+the ATSAME70. 
+
+Throughout this capstone, I built the brensenhma gradually, first
+starting with 2 axis, then 3 axis, then working my up to 5 axis and
+implementing the algorithm within ISR. 
+
+
+* 5-Axis 
+
+** Description 
+
+For 5-Axis significant changes were made. Previously the information
+that was being taken in was an initial co-ordinate and a final
+destination. 
+
+Now a buffer is filled with various co-ordinates one
+after the other. With each block of co-ordinates the initial position
+will be (0,0,0,0,0), resulting in each parameter being the amount of
+steps each axis will move. 
+
+This is done so that as the G-Code is interpreted by the G-Code
+Parser. The steps that are needed to travel to each point in the
+G-Code file can be filled into the motion buffer. 
+
+As the tool tip travels to the new co-ordinate, the destination
+becomes its origin in relation to a new block of co-ordinates.
+
+Not only the motion blocks but the way the bresenham calculates and
+compares the axis was significantly changed. 
+
+Initially a 5axis bresenham with conditional statements was
+implemented on the ATSAME70 board. It obviously ended up being too
+slow and interrupted a lot of other essential processes. 
+
+This implementation uses a while loop to simulate an ISR, therefore
+all the bresenahm calculation and code is contained within the ISR and functions
+within the ISR. 
+
+** Results 
+
+As can be seen below the 5axis bresenham works as intended and
+generates the step sequence needed. 
+
+[[file:5axis_ISR/5axis_result.png]]
+
+* 3-Axis 
+
+** Description 
+
+The 3 axis bresenham was very similair to the 2-axis except for the
+fact that more comparisons needed to be made. The error between x, y
+and z axis had to checked
+
+For this the same conditional logic and primitive values were used. 
+
+
+** Results 
+
+As can be seen from the figure below and from the [[file:3axis/output.txt][output.txt file]] in
+the respective directory, the algorithm was able to successfully
+generate a step sequence, this time for 3D coordinates. 
+
+[[file:3axis/3axis_result.png]]
+
+
+* 2-Axis 
+
+** Description 
+	
+Algorithm calculates the optimal slope of line segment from 1 point to
+another by checking the slope error. As the x axis increments, if the
+line is getting closer to a y co-ordinate higher than the current, the
+y axis will be incremented, else the x will be incremented.  
+
+This ultimately creates a steeper slope line if the points are more
+and vertical to each and vice versa. 
+
+The step seqeunce that the bresenham algorithm generates is then used
+to fire off the appropriate stepper motors. 
+
+** Results 
+
+As can be seen from the figure below and from the [[file:2axis/output.txt][output.txt file]] in
+the respective directory. The algorithm was able to generate a step
+sequence for each step it got closer to the final point.  
+
+If it detected that the line was getting steeper, it would step the x and y
+axis. If not, it would only step the x axis.   
+
+[[file:2axis/2axis_result.png]]
+
+
+
+
+

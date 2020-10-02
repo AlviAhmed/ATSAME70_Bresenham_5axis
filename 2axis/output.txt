@@ -1,0 +1,131 @@
+
+ Initial: (0, 0) -> Final (1, 5) 
+
+      (0,0) 
+Step      Co-ordinates 
+y      (0,1) 
+Step      Co-ordinates 
+y      (0,2) 
+Step      Co-ordinates 
+xy      (1,3) 
+Step      Co-ordinates 
+y      (1,4) 
+Step      Co-ordinates 
+y      (1,5) 
+ next: 
+
+ Initial: (1, 5) -> Final (3, 5) 
+
+      (1,5) 
+Step      Co-ordinates 
+x      (2,5) 
+Step      Co-ordinates 
+x      (3,5) 
+ next: 
+
+ Initial: (3, 5) -> Final (-9, 10) 
+
+      (3,5) 
+Step      Co-ordinates 
+x      (2,5) 
+Step      Co-ordinates 
+xy      (1,6) 
+Step      Co-ordinates 
+x      (0,6) 
+Step      Co-ordinates 
+xy      (-1,7) 
+Step      Co-ordinates 
+x      (-2,7) 
+Step      Co-ordinates 
+xy      (-3,8) 
+Step      Co-ordinates 
+x      (-4,8) 
+Step      Co-ordinates 
+x      (-5,8) 
+Step      Co-ordinates 
+xy      (-6,9) 
+Step      Co-ordinates 
+x      (-7,9) 
+Step      Co-ordinates 
+xy      (-8,10) 
+Step      Co-ordinates 
+x      (-9,10) 
+ next: 
+
+ Initial: (-9, 10) -> Final (10, 5) 
+
+      (-9,10) 
+Step      Co-ordinates 
+x      (-8,10) 
+Step      Co-ordinates 
+xy      (-7,9) 
+Step      Co-ordinates 
+x      (-6,9) 
+Step      Co-ordinates 
+x      (-5,9) 
+Step      Co-ordinates 
+x      (-4,9) 
+Step      Co-ordinates 
+xy      (-3,8) 
+Step      Co-ordinates 
+x      (-2,8) 
+Step      Co-ordinates 
+x      (-1,8) 
+Step      Co-ordinates 
+x      (0,8) 
+Step      Co-ordinates 
+xy      (1,7) 
+Step      Co-ordinates 
+x      (2,7) 
+Step      Co-ordinates 
+x      (3,7) 
+Step      Co-ordinates 
+x      (4,7) 
+Step      Co-ordinates 
+xy      (5,6) 
+Step      Co-ordinates 
+x      (6,6) 
+Step      Co-ordinates 
+x      (7,6) 
+Step      Co-ordinates 
+x      (8,6) 
+Step      Co-ordinates 
+xy      (9,5) 
+Step      Co-ordinates 
+x      (10,5) 
+ next: 
+
+ Initial: (10, 5) -> Final (8, -10) 
+
+      (10,5) 
+Step      Co-ordinates 
+y      (10,4) 
+Step      Co-ordinates 
+y      (10,3) 
+Step      Co-ordinates 
+y      (10,2) 
+Step      Co-ordinates 
+xy      (9,1) 
+Step      Co-ordinates 
+y      (9,0) 
+Step      Co-ordinates 
+y      (9,-1) 
+Step      Co-ordinates 
+y      (9,-2) 
+Step      Co-ordinates 
+y      (9,-3) 
+Step      Co-ordinates 
+y      (9,-4) 
+Step      Co-ordinates 
+y      (9,-5) 
+Step      Co-ordinates 
+y      (9,-6) 
+Step      Co-ordinates 
+xy      (8,-7) 
+Step      Co-ordinates 
+y      (8,-8) 
+Step      Co-ordinates 
+y      (8,-9) 
+Step      Co-ordinates 
+y      (8,-10) 
+ next: 
