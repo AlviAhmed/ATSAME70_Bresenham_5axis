@@ -18,6 +18,15 @@ Throughout this capstone, I built the bresenham gradually, first
 starting with 2 axis, then 3 axis, then working my up to 5 axis and
 implementing the algorithm within ISR. 
 
+*NOTE:* In this repo is a directory (*ATSAME70_code*) that contains a lot of the code
+that I used to experiment with the various timers and functions on the ATSAME70
+board. There also contains code that I have used for demonstrations of
+the Bresenham algorithm working and code experimenting
+with different types of algorithms. The problem is that at the moment
+it is unorganized and messy and needs to be updated
+
+
+* Updates Coming Soon
 
 * 5-Axis 
 
