@@ -1,0 +1,219 @@
+Enter Pose: You Entered: 1.000000 2.000000 3.000000 4.000000 5.000000
+Inverse Kinematic Joint Parameters: 2.201511 2.467850 2.257295 2.283185 2.405247
+Current motion head: 0 
+ 
+ 
+ 
+ Current step_count: 1   Current millimeters 0.000000 
+  Steps X Motor: 1 
+ 
+ 
+ Current step_count: 1   Current millimeters 0.000000 
+  Steps Y Motor: 1 
+ 
+ 
+ Current step_count: 1   Current millimeters 0.000000 
+  Steps Z Motor: 1 
+ 
+  Current step_count 1 
+ 
+ Current radians 0.000000 
+ 
+ Steps A Motor: 0 
+  Current step_count 1 
+ 
+ Current radians 0.000000 
+ 
+ Steps C Motor: 0 
+ Enter Pose: You Entered: 4.000000 5.000000 6.000000 7.000000 6.000000
+Inverse Kinematic Joint Parameters: 5.237759 -1.630432 -2.103607 0.716815 -2.883879
+Current motion head: 1 
+ 
+ 
+ 
+ Current step_count: 4   Current millimeters 7.000000 
+  Steps X Motor: 4 
+ 
+ 
+ Current step_count: 4   Current millimeters 5368712.000000 
+  Steps Y Motor: 1 
+ 
+ 
+ Current step_count: 4   Current millimeters 10737417.000000 
+  Steps Z Motor: 1 
+ 
+  Current step_count 4 
+ 
+ Current radians 2.000000 
+ 
+ Steps A Motor: 0 
+  Current step_count 4 
+ 
+ Current radians 33818640.000000 
+ 
+ Steps C Motor: 0 
+ Enter Pose: You Entered: 10.000000 20.000000 30.000000 40.000000 50.000000
+Inverse Kinematic Joint Parameters: 14.897157 -6.223339 32.433330 2.300888 -0.213146
+Current motion head: 2 
+ 
+ 
+ 
+ Current step_count: 11   Current millimeters 12.000000 
+  Steps X Motor: 11 
+ 
+ 
+ Current step_count: 11   Current millimeters 5368712.000000 
+  Steps Y Motor: 4 
+ 
+ 
+ Current step_count: 25   Current millimeters 5368746.000000 
+  Steps Z Motor: 25 
+ 
+  Current step_count 25 
+ 
+ Current radians 0.000000 
+ 
+ Steps A Motor: 0 
+  Current step_count 25 
+ 
+ Current radians 33818636.000000 
+ 
+ Steps C Motor: 0 
+ Enter Pose: You Entered: 45.000000 54.000000 62.000000 78.000000 60.000000
+Inverse Kinematic Joint Parameters: -26.398811 -46.534694 19.699751 2.601776 -0.184822
+Current motion head: 3 
+ 
+ 
+ 
+ Current step_count: 21   Current millimeters 5368680.000000 
+  Steps X Motor: 21 
+ 
+ 
+ Current step_count: 37   Current millimeters 10737340.000000 
+  Steps Y Motor: 37 
+ 
+ 
+ Current step_count: 37   Current millimeters 10737357.000000 
+  Steps Z Motor: 15 
+ 
+  Current step_count 37 
+ 
+ Current radians 0.000000 
+ 
+ Steps A Motor: 0 
+  Current step_count 37 
+ 
+ Current radians 33818636.000000 
+ 
+ Steps C Motor: 0 
+ Enter Pose: You Entered: 9.000000 4.000000 1.000000 2.000000 4.000000
+Inverse Kinematic Joint Parameters: -2.855583 -0.452255 -8.154706 2.000000 -2.477751
+Current motion head: 4 
+ 
+ 
+ 
+ Current step_count: 2   Current millimeters 5368704.000000 
+  Steps X Motor: 2 
+ 
+ 
+ Current step_count: 2   Current millimeters 10737414.000000 
+  Steps Y Motor: 0 
+ 
+ 
+ Current step_count: 6   Current millimeters 16106116.000000 
+  Steps Z Motor: 6 
+ 
+  Current step_count 6 
+ 
+ Current radians 0.000000 
+ 
+ Steps A Motor: 0 
+  Current step_count 6 
+ 
+ Current radians 33818640.000000 
+ 
+ Steps C Motor: 0 
+ Enter Pose: You Entered: 7.000000 8.000000 8.000000 8.000000 8.000000
+Inverse Kinematic Joint Parameters: -8.933366 -10.074141 6.864195 1.716815 1.632879
+Current motion head: 5 
+ 
+ 
+ 
+ Current step_count: 7   Current millimeters 5368702.000000 
+  Steps X Motor: 7 
+ 
+ 
+ Current step_count: 8   Current millimeters 10737399.000000 
+  Steps Y Motor: 8 
+ 
+ 
+ Current step_count: 8   Current millimeters 10737403.000000 
+  Steps Z Motor: 5 
+ 
+  Current step_count 8 
+ 
+ Current radians 3.000000 
+ 
+ Steps A Motor: 0 
+  Current step_count 8 
+ 
+ Current radians 6.000000 
+ 
+ Steps C Motor: 0 
+ 
+
+
+Block #: 0 
+ X Axis Steps: 1 
+ Y Axis Steps: 1 
+ Z Axis Steps: 1 
+  A Axis Steps: 0 
+ C Axis Steps: 0 
+ 
+Block #: 1 
+ X Axis Steps: 4 
+ Y Axis Steps: 1 
+ Z Axis Steps: 1 
+  A Axis Steps: 0 
+ C Axis Steps: 0 
+ 
+Block #: 2 
+ X Axis Steps: 11 
+ Y Axis Steps: 4 
+ Z Axis Steps: 25 
+  A Axis Steps: 0 
+ C Axis Steps: 0 
+ 
+Block #: 3 
+ X Axis Steps: 21 
+ Y Axis Steps: 37 
+ Z Axis Steps: 15 
+  A Axis Steps: 0 
+ C Axis Steps: 0 
+ 
+Block #: 4 
+ X Axis Steps: 2 
+ Y Axis Steps: 0 
+ Z Axis Steps: 6 
+  A Axis Steps: 0 
+ C Axis Steps: 0 
+ 
+Block #: 5 
+ X Axis Steps: 7 
+ Y Axis Steps: 8 
+ Z Axis Steps: 5 
+  A Axis Steps: 0 
+ C Axis Steps: 0 
+ 
+ Block Number #: 0 
+xyzac
+ Block Number #: 1 
+xyzacxyzacxyzacxyzac
+ Block Number #: 2 
+xyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzac
+ Block Number #: 3 
+xyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzacxyzac
+ Block Number #: 4 
+xyzacxyzac
+ Block Number #: 5 
+xyzacxyzacxyzacxyzacxyzacxyzacxyzac

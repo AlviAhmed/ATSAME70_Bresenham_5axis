@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <itemPath>config/hpl_pmc_config.h</itemPath>
+        <itemPath>config/hpl_xdmac_config.h</itemPath>
+        <itemPath>config/peripheral_clk_config.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="examples" displayName="examples" projectFiles="true">
+        <itemPath>examples/driver_examples.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="hal" displayName="hal" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>hal/include/hal_atomic.h</itemPath>
+          <itemPath>hal/include/hal_delay.h</itemPath>
+          <itemPath>hal/include/hal_gpio.h</itemPath>
+          <itemPath>hal/include/hal_init.h</itemPath>
+          <itemPath>hal/include/hal_io.h</itemPath>
+          <itemPath>hal/include/hal_sleep.h</itemPath>
+          <itemPath>hal/include/hpl_core.h</itemPath>
+          <itemPath>hal/include/hpl_delay.h</itemPath>
+          <itemPath>hal/include/hpl_dma.h</itemPath>
+          <itemPath>hal/include/hpl_ext_irq.h</itemPath>
+          <itemPath>hal/include/hpl_gpio.h</itemPath>
+          <itemPath>hal/include/hpl_init.h</itemPath>
+          <itemPath>hal/include/hpl_irq.h</itemPath>
+          <itemPath>hal/include/hpl_sleep.h</itemPath>
+          <itemPath>hal/include/hpl_missing_features.h</itemPath>
+          <itemPath>hal/include/hpl_reset.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="utils" displayName="utils" projectFiles="true">
+          <logicalFolder name="include" displayName="include" projectFiles="true">
+            <itemPath>hal/utils/include/compiler.h</itemPath>
+            <itemPath>hal/utils/include/err_codes.h</itemPath>
+            <itemPath>hal/utils/include/events.h</itemPath>
+            <itemPath>hal/utils/include/utils.h</itemPath>
+            <itemPath>hal/utils/include/utils_assert.h</itemPath>
+            <itemPath>hal/utils/include/utils_event.h</itemPath>
+            <itemPath>hal/utils/include/utils_increment_macro.h</itemPath>
+            <itemPath>hal/utils/include/utils_list.h</itemPath>
+            <itemPath>hal/utils/include/utils_repeat_macro.h</itemPath>
+            <itemPath>hal/utils/include/parts.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="hpl" displayName="hpl" projectFiles="true">
+        <logicalFolder name="core" displayName="core" projectFiles="true">
+          <itemPath>hpl/core/hpl_core_port.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="pio" displayName="pio" projectFiles="true">
+          <itemPath>hpl/pio/hpl_gpio_base.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="pmc" displayName="pmc" projectFiles="true">
+          <itemPath>hpl/pmc/hpl_pmc.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="hri" displayName="hri" projectFiles="true">
+        <itemPath>hri/hri_acc_e70b.h</itemPath>
+        <itemPath>hri/hri_aes_e70b.h</itemPath>
+        <itemPath>hri/hri_afec_e70b.h</itemPath>
+        <itemPath>hri/hri_chipid_e70b.h</itemPath>
+        <itemPath>hri/hri_dacc_e70b.h</itemPath>
+        <itemPath>hri/hri_e70b.h</itemPath>
+        <itemPath>hri/hri_efc_e70b.h</itemPath>
+        <itemPath>hri/hri_gmac_e70b.h</itemPath>
+        <itemPath>hri/hri_gpbr_e70b.h</itemPath>
+        <itemPath>hri/hri_hsmci_e70b.h</itemPath>
+        <itemPath>hri/hri_i2sc_e70b.h</itemPath>
+        <itemPath>hri/hri_icm_e70b.h</itemPath>
+        <itemPath>hri/hri_isi_e70b.h</itemPath>
+        <itemPath>hri/hri_lockbit_e70b.h</itemPath>
+        <itemPath>hri/hri_matrix_e70b.h</itemPath>
+        <itemPath>hri/hri_mcan_e70b.h</itemPath>
+        <itemPath>hri/hri_pio_e70b.h</itemPath>
+        <itemPath>hri/hri_pmc_e70b.h</itemPath>
+        <itemPath>hri/hri_pwm_e70b.h</itemPath>
+        <itemPath>hri/hri_qspi_e70b.h</itemPath>
+        <itemPath>hri/hri_rstc_e70b.h</itemPath>
+        <itemPath>hri/hri_rswdt_e70b.h</itemPath>
+        <itemPath>hri/hri_rtc_e70b.h</itemPath>
+        <itemPath>hri/hri_rtt_e70b.h</itemPath>
+        <itemPath>hri/hri_sdramc_e70b.h</itemPath>
+        <itemPath>hri/hri_smc_e70b.h</itemPath>
+        <itemPath>hri/hri_spi_e70b.h</itemPath>
+        <itemPath>hri/hri_ssc_e70b.h</itemPath>
+        <itemPath>hri/hri_supc_e70b.h</itemPath>
+        <itemPath>hri/hri_tc_e70b.h</itemPath>
+        <itemPath>hri/hri_trng_e70b.h</itemPath>
+        <itemPath>hri/hri_twihs_e70b.h</itemPath>
+        <itemPath>hri/hri_uart_e70b.h</itemPath>
+        <itemPath>hri/hri_usart_e70b.h</itemPath>
+        <itemPath>hri/hri_usbhs_e70b.h</itemPath>
+        <itemPath>hri/hri_utmi_e70b.h</itemPath>
+        <itemPath>hri/hri_wdt_e70b.h</itemPath>
+        <itemPath>hri/hri_xdmac_e70b.h</itemPath>
+      </logicalFolder>
+      <itemPath>driver_init.h</itemPath>
+      <itemPath>atmel_start_pins.h</itemPath>
+      <itemPath>atmel_start.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="examples" displayName="examples" projectFiles="true">
+        <itemPath>examples/driver_examples.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="hal" displayName="hal" projectFiles="true">
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>hal/src/hal_atomic.c</itemPath>
+          <itemPath>hal/src/hal_delay.c</itemPath>
+          <itemPath>hal/src/hal_gpio.c</itemPath>
+          <itemPath>hal/src/hal_init.c</itemPath>
+          <itemPath>hal/src/hal_io.c</itemPath>
+          <itemPath>hal/src/hal_sleep.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="utils" displayName="utils" projectFiles="true">
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <itemPath>hal/utils/src/utils_assert.c</itemPath>
+            <itemPath>hal/utils/src/utils_event.c</itemPath>
+            <itemPath>hal/utils/src/utils_list.c</itemPath>
+            <itemPath>hal/utils/src/utils_syscalls.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="hpl" displayName="hpl" projectFiles="true">
+        <logicalFolder name="core" displayName="core" projectFiles="true">
+          <itemPath>hpl/core/hpl_core_m7_base.c</itemPath>
+          <itemPath>hpl/core/hpl_init.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="pmc" displayName="pmc" projectFiles="true">
+          <itemPath>hpl/pmc/hpl_pmc.c</itemPath>
+          <itemPath>hpl/pmc/hpl_sleep.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="xdmac" displayName="xdmac" projectFiles="true">
+          <itemPath>hpl/xdmac/hpl_xdmac.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="same70b" displayName="same70b" projectFiles="true">
+        <logicalFolder name="gcc" displayName="gcc" projectFiles="true">
+          <logicalFolder name="gcc" displayName="gcc" projectFiles="true">
+            <itemPath>same70b/gcc/gcc/startup_same70q21b.c</itemPath>
+          </logicalFolder>
+          <itemPath>same70b/gcc/system_same70q21b.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>led_flasher_main.c</itemPath>
+      <itemPath>driver_init.c</itemPath>
+      <itemPath>atmel_start.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATSAME70Q21B</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>EdbgTool</platformTool>
+        <languageToolchain>ARM</languageToolchain>
+        <languageToolchainVersion>7.3.1</languageToolchainVersion>
+        <platform>2</platform>
+      </toolsSet>
+      <packs>
+        <pack name="SAME70_DFP" vendor="Microchip" version="4.0.29"/>
+        <pack name="CMSIS" vendor="ARM" version="5.0.1"/>
+      </packs>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <ARM-AR>
+        <property key="archiver-flags" value="-r"/>
+      </ARM-AR>
+      <ARM-AS>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths" value=""/>
+        <property key="suppress-warnings" value="false"/>
+      </ARM-AS>
+      <ARM-AS-PRE>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="suppress-warnings" value="false"/>
+      </ARM-AS-PRE>
+      <ARM-CPP>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="disable-extra-code-exception" value="true"/>
+        <property key="disable-extra-code-generation" value="true"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value="-Os"/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocess-only" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="use-rodata" value="false"/>
+        <property key="verbose" value="false"/>
+      </ARM-CPP>
+      <ARM-GCC>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value="-Os"/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="verbose" value="false"/>
+      </ARM-GCC>
+      <ARM-Global>
+        <property key="bin" value="false"/>
+        <property key="common-include-directories"
+                  value="examples;hpl/pio;hpl/pmc;hal/utils/include;hal/include;hpl/xdmac;./.;config;hpl/core;hri"/>
+        <property key="eep" value="false"/>
+        <property key="hex" value="true"/>
+        <property key="lss" value="false"/>
+        <property key="omit-pack-options" value="true"/>
+        <property key="processor-mode" value="-mthumb"/>
+        <property key="srec" value="false"/>
+        <property key="user-pack-include" value="same70b/include;CMSIS/Core/Include"/>
+      </ARM-Global>
+      <ARM-LD>
+        <property key="additional-specs" value="--specs=nosys.specs"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value="same70b/gcc/gcc"/>
+        <property key="fast-math" value="false"/>
+        <property key="flash-segment" value=""/>
+        <property key="generate-map-file" value="true"/>
+        <property key="input-libraries" value=""/>
+        <property key="no-default-libs" value="false"/>
+        <property key="no-shared-libraries" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="omit-symbol-information" value="false"/>
+        <property key="other-options" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="size-optimized-library" value="false"/>
+        <property key="sram-segment" value=""/>
+        <property key="unsafe-math" value="false"/>
+        <appendMe value="-T&quot;same70b/gcc/gcc/same70q21b_flash.ld&quot; "/>
+      </ARM-LD>
+      <EdbgTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="communication.interface" value="jtag"/>
+        <property key="communication.speed" value="${communication.speed.default}"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="400000-5fffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="voltagevalue" value=""/>
+      </EdbgTool>
+    </conf>
+  </confs>
+</configurationDescriptor>

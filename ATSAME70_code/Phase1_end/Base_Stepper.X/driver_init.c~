@@ -1,0 +1,111 @@
+/*
+ * Code generated from Atmel Start.
+ *
+ * This file will be overwritten when reconfiguring your Atmel Start project.
+ * Please copy examples or other code you want to keep to a separate file
+ * to avoid losing it when reconfiguring.
+ */
+
+#include "driver_init.h"
+#include <hal_init.h>
+#include <hpl_pmc.h>
+#include <peripheral_clk_config.h>
+#include <utils.h>
+
+void system_init(void)
+{
+	init_mcu();
+
+	_pmc_enable_periph_clock(ID_PIOA);
+
+	_pmc_enable_periph_clock(ID_PIOC);
+
+	_pmc_enable_periph_clock(ID_PIOD);
+
+	/* Disable Watchdog */
+	hri_wdt_set_MR_WDDIS_bit(WDT);
+
+	/* GPIO on PA2 */
+
+	gpio_set_pin_level(xdir,
+	                   // <y> Initial level
+	                   // <id> pad_initial_level
+	                   // <false"> Low
+	                   // <true"> High
+	                   false);
+
+	// Set pin direction to output
+	gpio_set_pin_direction(xdir, GPIO_DIRECTION_OUT);
+
+	gpio_set_pin_function(xdir, GPIO_PIN_FUNCTION_OFF);
+
+	/* GPIO on PA5 */
+
+	gpio_set_pin_level(LED_D2,
+	                   // <y> Initial level
+	                   // <id> pad_initial_level
+	                   // <false"> Low
+	                   // <true"> High
+	                   false);
+
+	// Set pin direction to output
+	gpio_set_pin_direction(LED_D2, GPIO_DIRECTION_OUT);
+
+	gpio_set_pin_function(LED_D2, GPIO_PIN_FUNCTION_OFF);
+
+	/* GPIO on PA6 */
+
+	gpio_set_pin_level(LED_D3,
+	                   // <y> Initial level
+	                   // <id> pad_initial_level
+	                   // <false"> Low
+	                   // <true"> High
+	                   false);
+
+	// Set pin direction to output
+	gpio_set_pin_direction(LED_D3, GPIO_DIRECTION_OUT);
+
+	gpio_set_pin_function(LED_D3, GPIO_PIN_FUNCTION_OFF);
+
+	/* GPIO on PC19 */
+
+	gpio_set_pin_level(LED_D6,
+	                   // <y> Initial level
+	                   // <id> pad_initial_level
+	                   // <false"> Low
+	                   // <true"> High
+	                   false);
+
+	// Set pin direction to output
+	gpio_set_pin_direction(LED_D6, GPIO_DIRECTION_OUT);
+
+	gpio_set_pin_function(LED_D6, GPIO_PIN_FUNCTION_OFF);
+
+	/* GPIO on PD11 */
+
+	gpio_set_pin_level(LED_D5,
+	                   // <y> Initial level
+	                   // <id> pad_initial_level
+	                   // <false"> Low
+	                   // <true"> High
+	                   false);
+
+	// Set pin direction to output
+	gpio_set_pin_direction(LED_D5, GPIO_DIRECTION_OUT);
+
+	gpio_set_pin_function(LED_D5, GPIO_PIN_FUNCTION_OFF);
+
+	/* GPIO on PD27 */
+
+	gpio_set_pin_level(LED_D4,
+	                   // <y> Initial level
+	                   // <id> pad_initial_level
+	                   // <false"> Low
+	                   // <true"> High
+	                   false);
+
+	// Set pin direction to output
+	gpio_set_pin_direction(LED_D4, GPIO_DIRECTION_OUT);
+
+	gpio_set_pin_function(LED_D4, GPIO_PIN_FUNCTION_OFF);
+}

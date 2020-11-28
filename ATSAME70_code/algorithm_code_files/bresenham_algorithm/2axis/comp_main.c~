@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>  
+
+int main (void){ 
+  int sx, x0, x1; 
+  
+    sx = x0<x1 ? 1 : -1;
+
+
+}
